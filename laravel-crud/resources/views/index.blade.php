@@ -1,4 +1,5 @@
 @extends('master')
+@extends('layouts.app')
 
 <!-- isi title -->
 @section('title', 'Home')
