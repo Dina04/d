@@ -12,7 +12,7 @@
 <a href="/mahasiswa/tambah" class="btn btn-primary">Tambah Data Mahasiswa</a>
 <br />
 <br />
-<table class="table table-bordered table-hovel table-striped">
+<table class="table table-bordered table-hover table-striped">
     <thead>
         <tr>
             <th>Nama</th>

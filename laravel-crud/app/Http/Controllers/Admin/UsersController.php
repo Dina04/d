@@ -16,15 +16,15 @@ class UsersController extends Controller
     public function index()
     {
         $users = User::all();
-        return view('admin.users.index')->with('users', $users);
+        return view('admin.users.index')->with('users',$users);
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for editing the specified resource.
      *
+     * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-
     public function edit(User $user)
     {
         //

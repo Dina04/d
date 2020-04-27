@@ -1,20 +1,17 @@
 @extends('master')
-
-<!-- isi title -->
+<!-------isi title--->
 @section('title', 'Detail Mahasiswa')
 
-<!-- isi bagian judul halaman -->
+<!------isi bagian judul halaman---->
 @section('judul_halaman', 'Detail Data Mahasiswa')
 
-<!-- isi bagian konten -->
+<!------isi bagian konten------->
 @section('konten')
 <a href="/mahasiswa" class="btn btn-danger">Kembali</a>
-
 <br />
 <br />
-
 @foreach($mahasiswa as $mhs)
-<h5 class="card-title"> {{$mhs->nama}}</h5>
+<h5 class="card-title"> {{$mhs->nama}} </h5>
 <p class="card-text">
     <label for=""><b> NIM : </b></label>
     {{$mhs->nim}}</p>
